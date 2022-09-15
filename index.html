@@ -33,24 +33,42 @@
     </nav>
     <!-- tiles -->
     <section class="section">
-      <div class="container">
-        <div class="tile is-ancestor">
-          <div class="tile is-4 is-vertical is-parent">
-            <div class="tile is-child box">
-              <p class="title">word</p>
-            </div>
-            <div class="tile is-child box">
-              <p class="title">word2</p>
-            </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+          <div class="tile is-parent is-vertical box has-background-dark">
+            <article class="tile is child">
+              <p class="subtitle has-text-white">Enter Word Here</p>
+              <input class="input is-danger" type="text" placeholder="Enter Word">
+              <button class="button has-text-white has-background-danger-dark">Search</button>
+            </article>
           </div>
           <div class="tile is-parent">
-            <div class="tile is-child box">
-              <p class="title">word3</p>
+            <article class="tile is-child box has-text-white has-background-dark">
+              <p class="subtitle has-text-danger">Word Info</p>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed illo blanditiis eligendi? Nisi consequuntur facilis itaque harum asperiores, illo est rerum placeat odio aut beatae dicta ut. Illum, omnis hic laudantium optio voluptates corporis nostrum esse eos qui nihil. Molestiae reprehenderit eaque nemo iure, ea reiciendis mollitia cum eveniet saepe.</p>
+            </article>
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child box has-background-dark">
+                <p class="subtitle has-text-danger">Translate Word</p>
+                <input class="input is-danger" type="text" placeholder="Enter Word">
+                <button class="button has-text-white has-background-danger-dark mt-1">Translate</button>
+                <div class="select is-danger has-text-danger-dark mt-1">
+                  <select>
+                    <option>English</option>
+                    <option>Spanish</option>
+                    <option>Arabic</option>
+                  </select>
+                </div>
+              </article>
+              <article class="tile is-child box has-background-dark">
+                <p class=" subtitle has-text-danger">Word Translation Here</p>
+                  <p class="content has-text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque facilis, alias architecto accusantium sint in odio recusandae incidunt pariatur autem ut, magnam qui hic tenetur fugiat mollitia! Minima accusamus libero reiciendis pariatur similique veniam deserunt odit quas nisi. Dolorem unde quisquam, itaque illo explicabo asperiores illum quis sed nisi dolore.</p>
+              </article>
             </div>
           </div>
         </div>
-      </div>
     </section>
+
     <footer class="footer">
       <div class="content has-text-centered">
         <p>copyright 2022 hackstreetboys</p>
