@@ -38,8 +38,8 @@
           <div class="tile is-parent is-vertical box has-background-dark">
             <article class="tile is child">
               <p class="subtitle has-text-white">Enter Word Here</p>
-              <input class="input is-danger" type="text" placeholder="Enter Word">
-              <button class="button has-text-white has-background-danger-dark">Search</button>
+              <input class="input is-danger" id="mainword" type="text" placeholder="Enter Word">
+              <button class="button has-text-white has-background-danger-dark ml-2" id="searchbutton">Search</button>
             </article>
           </div>
           <div class="tile is-parent">
@@ -50,23 +50,25 @@
             <div class="tile is-parent is-vertical">
               <article class="tile is-child box has-background-dark">
                 <p class="subtitle has-text-danger">Translate Word</p>
-                <input class="input is-danger" type="text" placeholder="Enter Word">
-                <button class="button has-text-white has-background-danger-dark mt-1">Translate</button>
+                <input class="input is-danger" id="transword" type="text" placeholder="Enter Word">
+                <button class="button has-text-white has-background-danger-dark mt-1" id="transbutton">Translate</button>
                 <div class="select is-danger has-text-danger-dark mt-1">
-                  <select>
-                    <option>English</option>
-                    <option>Spanish</option>
-                    <option>Arabic</option>
+                  <select id="langselect">
+                    <option>English (en)</option>
+                    <option>Spanish (es)</option>
+                    <option>Arabic (ar)</option>
+                    <option>Russian (ru)</option>
                   </select>
                 </div>
               </article>
               <article class="tile is-child box has-background-dark">
-                <p class=" subtitle has-text-danger">Word Translation Here</p>
+                <p class=" subtitle has-text-danger">Word Translation</p>
                   <p class="content has-text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque facilis, alias architecto accusantium sint in odio recusandae incidunt pariatur autem ut, magnam qui hic tenetur fugiat mollitia! Minima accusamus libero reiciendis pariatur similique veniam deserunt odit quas nisi. Dolorem unde quisquam, itaque illo explicabo asperiores illum quis sed nisi dolore.</p>
               </article>
             </div>
           </div>
         </div>
+      </div>
     </section>
 
     <footer class="footer">
@@ -74,5 +76,6 @@
         <p>copyright 2022 hackstreetboys</p>
       </div>
     </footer>
+    <script src="./assets/javascript/script.js"></script>
   </body>
 </html>
