@@ -2,3 +2,30 @@
     border: 5px;
     border-color: black;
 }
+
+:root {
+    --theme: rgb(255, 65, 65);
+    --accent: #F3E4CA;
+    --dark: rgb(42, 42, 42); 
+}
+
+.button:hover {
+    border: 2px solid var(--accent);
+    box-shadow: 0 0 10px 2px var(--theme);
+}
+
+.title {
+    color: var(--accent);
+}
+
+.redword {
+    color: var(--theme);
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.navbar-item:hover {
+    background-color: var(--accent);
+    color: var(--accent);
+}

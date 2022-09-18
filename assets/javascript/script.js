@@ -25,7 +25,7 @@ function wordSearch() {
         });
 }
 
-// var storedValue = "";
+
 
 function tSearch() {
     var transValue = document.getElementById("transword").value;
@@ -33,9 +33,6 @@ function tSearch() {
     console.log(transValue);
     console.log(langChoice);
 
-    var spanish = document.querySelector("#es");
-    var arabic = document.querySelector("#ar");
-    var russian = document.querySelector("#ru");
 
     var transText = document.querySelector("#translateText");
 
@@ -78,33 +75,8 @@ function tSearch() {
         })
         .catch((err) => console.error(err));
 
-    //     if (langChoice === spanish){
-    //  encodedSpanish.append("from", "en");
-    //  encodedSpanish.append("to", "es");
-    // console.log(spanish);
-
-    // }
-    // if (langChoice === arabic){
-    //     encodedArabic.append("from", "en");
-    //     encodedArabic.append("to", "es");
-
-    //    }
-    //    if (langChoice === russian){
-    //     encodedRussian.append("from", "en");
-    //     encodedRussian.append("to", "es");
-
-    //    }
 }
 
-// const encodedSpanish = new URLSearchParams();
-// encodedSpanish.append("from", "en");
-// encodedSpanish.append("to", "es");
-// encodedSpanish.append("text", transValue);
-// const encodedArabic = new URLSearchParams();
-// encodedArabic.append("from", "en");
-// encodedArabic.append("to", "ar");
-// encodedArabic.append("text", transValue);
-// const encodedRussian = new URLSearchParams();
-// encodedRussian.append("from", "ru");
-// encodedRussian.append("to", spanish);
-// encodedRussian.append("text", transValue);
+
+
+
