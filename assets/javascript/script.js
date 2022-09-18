@@ -7,12 +7,26 @@ transBtn.addEventListener("click", tSearch);
 function wordSearch() {
   var searchValue = document.getElementById("mainword").value;
   console.log(searchValue);
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
 };
 
  var storedValue = ""
 
 function tSearch() {
-   var transValue = document.getElementById("transword").value;
+    var transValue = document.getElementById("transword").value;
     var langChoice = document.getElementById("langselect").value;
     console.log(transValue);
     console.log(langChoice);
@@ -62,22 +76,22 @@ fetch('https://translo.p.rapidapi.com/api/v3/translate', options )
 	.catch(err => console.error(err));
     
  
-    if (langChoice === spanish){
- encodedSpanish.append("from", "en");
- encodedSpanish.append("to", "es");
-console.log(spanish);
+//     if (langChoice === spanish){
+//  encodedSpanish.append("from", "en");
+//  encodedSpanish.append("to", "es");
+// console.log(spanish);
 
-}
-if (langChoice === arabic){
-    encodedArabic.append("from", "en");
-    encodedArabic.append("to", "es");
+// }
+// if (langChoice === arabic){
+//     encodedArabic.append("from", "en");
+//     encodedArabic.append("to", "es");
    
-   }
-   if (langChoice === russian){
-    encodedRussian.append("from", "en");
-    encodedRussian.append("to", "es");
+//    }
+//    if (langChoice === russian){
+//     encodedRussian.append("from", "en");
+//     encodedRussian.append("to", "es");
    
-   }
+//    }
 
 };
 
