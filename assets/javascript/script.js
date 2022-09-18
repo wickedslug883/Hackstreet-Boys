@@ -61,23 +61,6 @@ fetch('https://translo.p.rapidapi.com/api/v3/translate', options )
     .then(function (response) {updateTranslatedText(response)} )
 	.catch(err => console.error(err));
     
- 
-    if (langChoice === spanish){
- encodedSpanish.append("from", "en");
- encodedSpanish.append("to", "es");
-console.log(spanish);
-
-}
-if (langChoice === arabic){
-    encodedArabic.append("from", "en");
-    encodedArabic.append("to", "es");
-   
-   }
-   if (langChoice === russian){
-    encodedRussian.append("from", "en");
-    encodedRussian.append("to", "es");
-   
-   }
 
 };
 
