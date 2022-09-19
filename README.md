@@ -30,7 +30,7 @@ TRANSLO API
 Application currently not functioning properly. Cannot receive weather information about making API call. 
 
 
-## KEDY CONTRIBUTORS
+## KEY CONTRIBUTORS
 DAVID AMADRILL 
 HANDRULIZ NOVA 
 MICHAEL COFFMAN 
