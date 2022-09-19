@@ -18,7 +18,7 @@ AN ALL IN ONE APP FOR YOUR DEFINITION AND TRANSLATION NEEDS. IN A FEW CLICKS, YO
 
 
 ## Technologies Used
-Visual Studio Code
+VISUAL STUDIO CODE
 HTML
 JAVASCRIPT
 CSS
@@ -27,7 +27,7 @@ DEFINITION API
 TRANSLO API
 
 ## Project Status
-Application currently not functioning properly. Cannot receive weather information about making API call. 
+APPLICATION CURRENTLY FUNCTIONING AT PEAK LEVEL.  
 
 
 ## KEY CONTRIBUTORS
