@@ -12,6 +12,7 @@
 .button:hover {
     border: 2px solid var(--accent);
     box-shadow: 0 0 10px 2px var(--theme);
+    animation-duration: 750ms;
 }
 
 .title {
@@ -23,6 +24,9 @@
     background-color: rgb(37, 37, 37);
     border-radius: 10px;
     padding: 5px;
+}
+.navbar-item a {
+    color: var(--accent);
 }
 
 .navbar-item:hover {
