@@ -15,6 +15,14 @@ function wordSearch() {
     fetch("https://api.dictionaryapi.dev/api/v2/entries/en/" + searchValue)
         .then((res) => res.json())
         .then((data) => {
+            if(data[0] === undefined) {
+                var activeModal = document.querySelector('.modal');
+                   activeModal.classList.add("is-active");
+                var closeBtn = document.querySelector(".modal-close");
+                   closeBtn.addEventListener("click", function(){
+                       activeModal.classList.remove("is-active");
+                   });
+               }else {
             (word.innerHTML = data[0].word),
                 (definition.innerHTML =
                     data[0].meanings[0].definitions[0].definition),
@@ -22,6 +30,7 @@ function wordSearch() {
                 audio.setAttribute("controls", "controls"),
                 audio.setAttribute("autoplay", "autoplay"),
                 console.log(data);
+               }
         });
 }
 

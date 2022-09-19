@@ -30,14 +30,14 @@
       </div>
       <div class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item has-text-danger" href="https://github.com/wickedslug883/Hackstreet-Boys">github</a>
-          <a class="navbar-item has-text-danger" href="https://rapidapi.com/armangokka/api/translo/details">translo</a>
-          <a class="navbar-item has-text-danger" href="https://dictionaryapi.dev/">dictionary</a>
+          <a id="navA1" class="navbar-item has-text-danger" href="https://github.com/wickedslug883/Hackstreet-Boys">github</a>
+          <a id="navA2" class="navbar-item has-text-danger" href="https://rapidapi.com/armangokka/api/translo/details">translo</a>
+          <a id="navA3" class="navbar-item has-text-danger" href="https://dictionaryapi.dev/">dictionary</a>
         </div>
       </div>
     </nav>
     <!-- tiles -->
-    <section class="section has-background-grey">
+    <section id= "sectionA" class="section has-background-grey">
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
           <div class="tile is-parent is-vertical box has-background-dark">
@@ -46,6 +46,28 @@
               <input class="input is-danger" id="mainword" type="text" placeholder="Enter Word" value="">
               <button class="button has-text-white has-background-danger-dark ml-2" id="searchbutton">Search</button>
             </article>
+            <div class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content">
+                <div class="card p-4 has-background-dark">
+                  <div class="card-content has-text-centered">
+                    <img
+                     src="assets/hackstreetboys.png"
+                     alt="site logo"
+                     style="max-height: 80px"
+                     class="py-2 px-2"
+                     />
+                    <p class="title has-text-danger">
+                      "Look at you inventing words!"
+                    </p>
+                    <p class="title has-text-white">
+                      Try something else please!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box has-text-white has-background-dark">
@@ -80,9 +102,16 @@
       </div>
     </section>
 
-    <footer class="footer has-background-dark">
-      <div class="content has-text-centered">
-        <p>©copyright 2022 hackstreetboys</p>
+    <footer id="footerA" class="footer has-background-dark">
+      <div id="footerDiv"class="content has-text-centered">
+        <p style="font-weight: bold;">©Copyright 2022 HackstreetBoys</p>
+        <marquee width = "50%">DANNY AMADRIL 
+         <a class="footerLinks">  https://github.com/wickedslug883 </a>, HANDRULIZ NOVA 
+         <a class="footerLinks"> https://github.com/Handruliz </a>, DEMETRIUS CARTER 
+          <a class="footerLinks"> https://github.com/DemetriusCarter </a>, ISAAC FALCON 
+            <a class="footerLinks"> https://github.com/IsaacFalcon </a>, MICHAEL COFFMAN 
+              <a class="footerLinks"> https://github.com/MikeMaiku </a>
+          </marquee>
       </div>
     </footer>
     <script src="./assets/javascript/script.js"></script>

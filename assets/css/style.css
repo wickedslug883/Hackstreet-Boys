@@ -1,14 +1,36 @@
 * {
     border: 5px;
     border-color: black;
+    
 }
-
+/* body {
+    overflow: hidden;
+} */
 :root {
     --theme: rgb(255, 65, 65);
     --accent: #F3E4CA;
     --dark: rgb(42, 42, 42); 
 }
+#sectionA {
+    padding: 7.1rem 1.5rem;
+}
+#footerA {
+    
+    padding: 4rem 1.5rem 4rem;
 
+}
+.footerLinks:link {
+    text-decoration-color: green;
+    background-color: red;
+   
+    
+  }
+.footerLinks:hover {
+    color: var(--theme);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
 .button:hover {
     border: 2px solid var(--accent);
     box-shadow: 0 0 10px 2px var(--theme);
@@ -25,11 +47,29 @@
     border-radius: 10px;
     padding: 5px;
 }
-.navbar-item a {
+.test {
     color: var(--accent);
 }
 
-.navbar-item:hover {
-    background-color: var(--accent);
-    color: var(--accent);
+#navA1:hover {
+    animation: pulse 1.75s;
 }
+#navA2:hover {
+    animation: pulse 1.75s;
+}
+#navA3:hover {
+  animation: pulse 1.75s; 
+      
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(.85);
+    }
+    70% {
+      transform: scale(1);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
