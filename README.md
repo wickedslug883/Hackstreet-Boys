@@ -33,7 +33,7 @@ APPLICATION CURRENTLY FUNCTIONING AT PEAK LEVEL.
 
 ## KEY CONTRIBUTORS
 * DAVID AMADRILL https://github.com/wickedslug883
-* HANDRULIZ NOVA 
+* HANDRULIZ NOVA https://github.com/Handruliz
 * MICHAEL COFFMAN https://github.com/MikeMaiku
 * ISAAC FALCON https://github.com/IsaacFalcon
 * DEMETRIUS CARTER https://github.com/DemetriusCarter
