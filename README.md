@@ -12,7 +12,7 @@ AN ALL IN ONE APP FOR YOUR DEFINITION AND TRANSLATION NEEDS. IN A FEW CLICKS, YO
 
 
 
-<img width="847" alt="Screen Shot 2022-09-18 at 9 08 52 PM" src="https://user-images.githubusercontent.com/108381693/190939530-39be2f9d-070f-4071-998a-89b605dd98e2.png">
+<img width="842" alt="Screen Shot 2022-09-18 at 9 37 38 PM" src="https://user-images.githubusercontent.com/108381693/190941628-8a14c31d-0ea8-43c3-96a2-7c3cf366ead6.png">
 
 
 
